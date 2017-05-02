@@ -104,8 +104,8 @@ Modify hdf5 file
 
 
 try:
-    from tvtk.api import tvtk
-    from mayavi.sources.vtk_data_source import VTKDataSource
+    # from tvtk.api import tvtk
+    # from mayavi.sources.vtk_data_source import VTKDataSource
     from mayavi import mlab
 except:
     print 'Layout:Mayavi is not installed'
